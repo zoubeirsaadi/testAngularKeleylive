@@ -1,0 +1,49 @@
+<div  class="row filter">
+                <div id='filter' class="col-xs-6 .col-sm-4">
+                  Filter : <br>
+                      <div  ng-repeat="">
+                      <label>
+                          <input type="checkbox" ng-model="" ng-change=""/>
+                      </label>
+                      </div>
+                  
+                </div>
+                <div id='tri' class="col-xs-6 .col-sm-4">
+                  Tri par : <br>
+                  <input type="checkbox" value="prix" ng-model=""> Prix <br>
+                  <input type="checkbox" value="poids" ng-model=""> Poids <br>
+
+                  <input type="button" value="Go" ng-click=""> 
+                </div>
+</div>
+
+<div class="col-sm-2">
+      <img class="imageProduit" src="{{$ctrl.product.image}}" />
+</div>
+<div class="col-sm-10">
+                       <div class="row">
+                           <div class="col-sm-6 mt-30">
+                              <div class="pull-left">
+                                  <span class=" list-group-item-heading">{{$ctrl.product.description}}</span>
+                              </div>
+                           </div>
+                           <div class="col-sm-6 mt-30">
+                              <div class="pull-right">
+                                  <span class="list-group-item-text" > {{$ctrl.product.price}} euros {{$ctrl.product.weight}} Kg  </span>
+                              </div>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="col-sm-6">
+                              <div class="pull-left">
+                                   <span class="list-group-item-text"> {{$ctrl.product.tag}} </span>
+                              </div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="pull-right">
+                                  <a ui-sref="productDetails({productId:$ctrl.product.id})">En savoir plus</a>
+                              </div>
+                           </div>
+                       </div>
+                             
+</div>

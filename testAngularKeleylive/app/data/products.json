@@ -1,0 +1,36 @@
+[{
+    "image": "http://www.maestria.be/wp-content/uploads/2012/02/POY-250x250.jpg", 
+    "description":"Description du produit1", 
+    "tag":["tag 1","tag 2"], 
+    "price":"20", 
+    "weight":"15", 
+    "categorie": ["catégorie 1", "categorie2"]
+}, {
+    "image": "http://www.maestria.be/wp-content/uploads/2012/02/POY-250x250.jpg", 
+    "description":"Description du produit2", 
+    "tag":["tag 3"], 
+    "price":"25", 
+    "weight":"10", 
+    "categorie": ["catégorie 1", "categorie2"]
+}, {
+    "image": "http://www.maestria.be/wp-content/uploads/2012/02/POY-250x250.jpg", 
+    "description":"Description du produit3", 
+    "tag":["tag 2"], 
+    "price":"10", 
+    "weight":"9", 
+    "categorie": ["catégorie 1", "categorie2"]
+}, {
+    "image": "http://www.maestria.be/wp-content/uploads/2012/02/POY-250x250.jpg", 
+    "description":"Description du produit4", 
+    "tag":["tag 1","tag2"], 
+    "price":"20", 
+    "weight":"15", 
+    "categorie": ["catégorie 1", "categorie2"]
+}, {
+    "image": "http://www.maestria.be/wp-content/uploads/2012/02/POY-250x250.jpg", 
+    "description":"Description du produit5", 
+    "tag":["tag 1","tag2"], 
+    "price":"20", 
+    "weight":"15", 
+    "categorie": ["catégorie 1", "categorie2"]
+}]
